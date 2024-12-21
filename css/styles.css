@@ -16,19 +16,20 @@ body {
 .topBar{
     height: 4rem;
     width: 100%;
-    background:#4361EE;
+    background:#3a0ca3;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h1{
+span{
     color: aliceblue;
     text-align: center;
     text-shadow: 2px 1px 0 black;
     font-family: "Rubik Mono One", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 2rem;
 }
 
 .banner{
@@ -75,7 +76,19 @@ main{
     margin: 10px 40px ;
 }
 
+
+h1{
+    color: #3a0ca3;
+    text-shadow: 2px 2px 30px whitesmoke;
+    margin-bottom: 0.4rem;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
 h2{
+    color: #f72585;
     margin-bottom: 0.4rem;
     font-family: "Nunito", serif;
     font-optical-sizing: auto;
@@ -84,6 +97,7 @@ h2{
 }
 
 p{
+    color: #464746;
     margin-bottom: 1rem;
     font-family: "Nunito", serif;
     font-optical-sizing: auto;
