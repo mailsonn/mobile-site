@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +24,9 @@ h1{
     color: aliceblue;
     text-align: center;
     text-shadow: 2px 1px 0 black;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .banner{
@@ -40,7 +46,7 @@ h1{
 }
 
 .bottomBar{
-    margin-top: 26rem;
+
     height: 4rem;
     width: auto;
     border: 5px solid #4361EE;
@@ -59,4 +65,24 @@ h1{
     height: 52px;
     color: red;
     
+}
+
+main{
+    margin: 10px 40px ;
+}
+
+h2{
+    margin-bottom: 0.4rem;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+p{
+    margin-bottom: 1rem;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
