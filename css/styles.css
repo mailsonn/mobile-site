@@ -37,7 +37,7 @@ span{
     border: solid 1px gray;
     height: 12rem;
     width: 100%;
-
+    
    
 }
 
@@ -79,7 +79,7 @@ main{
 
 h1{
     color: #3a0ca3;
-    text-shadow: 2px 2px 30px whitesmoke;
+    text-shadow: 2px 2px 30px ffffff;
     margin-bottom: 0.4rem;
     font-family: "Nunito", serif;
     font-optical-sizing: auto;
