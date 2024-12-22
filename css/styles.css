@@ -33,12 +33,9 @@ span{
 }
 
 .banner{
-
     border: solid 1px gray;
     height: 12rem;
     width: 100%;
-    
-   
 }
 
 .img-banner{
@@ -49,14 +46,11 @@ span{
 }
 
 .bottomBar{
-
     height: 4rem;
     width: 100%;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     position: fixed;
     bottom: 0;
 }
@@ -104,3 +98,24 @@ p{
     font-weight: weight;
     font-style: normal;
 }
+
+.allclasses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aulas {
+    height: 8rem;
+    width: 15rem;
+    border: solid 2px red;
+    margin-bottom: 2rem;
+    border-radius: 4%;
+}
+
+.aulas:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
