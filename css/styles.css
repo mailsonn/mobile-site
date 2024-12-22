@@ -110,8 +110,11 @@ p{
     height: 8rem;
     width: 15rem;
     border: solid 2px red;
-    margin-bottom: 2rem;
     border-radius: 4%;
+}
+
+.aulas:last-of-type{
+    margin-bottom: 1rem;
 }
 
 .aulas:hover{
