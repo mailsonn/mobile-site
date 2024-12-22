@@ -122,3 +122,30 @@ p{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/*vizualização única das aulas*/
+
+.aulas-view{
+    height: 16rem;
+    width: 20rem;
+    border: solid 1px gray;
+    border-radius: 4%;
+}
+
+.aulas-view iframe{
+    height: 100%;
+    max-width: 100%;
+}
+
+.write-version{
+    height: 80vh;
+    width: 20rem;
+   
+    border-radius: 4%;
+}
+
+.write-version iframe{
+    height: 80%;
+    width: 100%;
+    border: none;
+}
+
