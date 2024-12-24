@@ -58,6 +58,7 @@ span{
 .icones{
     height: 45px;
     color: blue;
+    opacity: 60%;
 }
 
 .icones:hover{
@@ -98,6 +99,8 @@ p{
     font-weight: weight;
     font-style: normal;
 }
+
+
 
 .allclasses {
     display: flex;
