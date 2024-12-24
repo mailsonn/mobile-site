@@ -1,0 +1,13 @@
+@media  (min-width: 800px) {
+    main {
+        margin: 0 20% 0 20%;
+        
+    }
+    .bigTop{
+        margin: 0 20% 0 20%;
+    }
+    .bottomBar{
+        display: none;
+    }
+
+}
