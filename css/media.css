@@ -1,19 +1,44 @@
 @media  (min-width: 800px) {
     main {
         margin: 0 20% 0 20%;
-        
     }
     .bigTop{
         margin: 0 20% 0 20%;
     }
     .bottomBar{
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-end;
         position: fixed;
         top: 10rem;
         right: 12rem;
+    }
+
+    .allclasses{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      
+        width: auto;
+        height: 70vh;
+        
+    }
+
+    .aulas{
+        margin: 10pix;
+    }
+    footer{
+        color: white;
+        height: 10rem;
+        width: auto;
+        margin: 0 20% 0 20%;
+    }
+
+    .listMenu{
+        display: none;
     }
 
 }
